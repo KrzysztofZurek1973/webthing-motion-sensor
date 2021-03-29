@@ -36,6 +36,7 @@ This webThing has the following properties and one event:
  * **alarm notification** (event) - sent when motion detected and alarm is activated
 
 Example event log is shown below.
+
 ![motion sensor event log](./images/p2.jpg)
 
 ## Documentation
