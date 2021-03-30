@@ -163,8 +163,8 @@ void init_button_io(void){
 	//set as input mode
 	io_conf.mode = GPIO_MODE_INPUT;
 	//enable pull-up mode
-	io_conf.pull_up_en = 1;
-	io_conf.pull_down_en = 0;
+	io_conf.pull_up_en = 0;
+	io_conf.pull_down_en = 1;
 	gpio_config(&io_conf);
 
 	gpio_isr_handler_add(GPIO_INPUT, gpio_isr_handler, NULL);
